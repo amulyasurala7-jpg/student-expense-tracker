@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Expense Tracker</h1>
+  <form id="expenseForm">
+    <input type="text" id="category" placeholder="Category" required>
+    <input type="number" id="amount" placeholder="Amount" required>
+    <input type="date" id="date" required>
+    <button type="submit">Add Expense</button>
+  </form>
+
+  <h2>Expenses</h2>
+  <ul id="expenseList"></ul>
+
+  <h2>Summary</h2>
+  <ul id="summaryList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
